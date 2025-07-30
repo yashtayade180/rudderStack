@@ -1,0 +1,22 @@
+{
+  "name": "data-catalog-api",
+  "version": "1.0.0",
+  "description": "Data Catalog API using Fastify and Sequelize",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "fastify": "^4.27.2",
+    "pg": "^8.11.3",
+    "sequelize": "^6.37.1",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  }
+}
